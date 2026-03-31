@@ -8,7 +8,8 @@ const App: React.FC = () => {
       
       {/* Keyboard shortcut hint */}
       <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 text-white/40 text-xs font-sans-serif tracking-widest text-center z-20">
-        <p>PRESS <span className="text-pink-300/60 font-bold">D</span> OR <span className="text-pink-300/60 font-bold">SPACE</span> TO DISPERSE/CONVERGE</p>
+        <p>PRESS <span className="text-pink-300/60 font-bold">A</span> TO SHOW TEXT INPUT</p>
+        <p className="mt-1">PRESS <span className="text-pink-300/60 font-bold">D</span> OR <span className="text-pink-300/60 font-bold">SPACE</span> TO DISPERSE/CONVERGE (Heart mode only)</p>
       </div>
     </div>
   );
