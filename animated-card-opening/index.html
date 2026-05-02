@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animated Card Opening - Travel Gallery</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="app-container">
+        <!-- Main Active Card (Fullscreen) -->
+        <div class="card-fullscreen" id="activeCard">
+            <div class="card-image-wrapper">
+                <img class="card-image" id="activeImage" src="" alt="Landscape">
+                <div class="gradient-overlay"></div>
+            </div>
+            <div class="card-content">
+                <span class="card-place" id="activePlace">Place</span>
+                <h1 class="card-title" id="activeTitle1">Title Line 1</h1>
+                <h2 class="card-subtitle" id="activeTitle2">Title Line 2</h2>
+                <p class="card-description" id="activeDesc">Description text goes here...</p>
+                <button class="card-button" id="activeButton">Explore Now</button>
+            </div>
+        </div>
+
+        <!-- Thumbnail Strip (Right Side) -->
+        <div class="thumbnail-strip" id="thumbnailStrip">
+            <!-- Thumbnails rendered by JS -->
+        </div>
+
+        <!-- Navigation Arrows -->
+        <button class="nav-arrow nav-prev" id="navPrev" aria-label="Previous slide">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <polyline points="15 18 9 12 15 6"></polyline>
+            </svg>
+        </button>
+        <button class="nav-arrow nav-next" id="navNext" aria-label="Next slide">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <polyline points="9 18 15 12 9 6"></polyline>
+            </svg>
+        </button>
+
+        <!-- Progress Bar -->
+        <div class="progress-container">
+            <div class="progress-bar" id="progressBar"></div>
+        </div>
+
+        <!-- Slide Counter -->
+        <div class="slide-counter">
+            <span id="currentSlide">1</span> / <span id="totalSlides">6</span>
+        </div>
+    </div>
+
+    <!-- GSAP from CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
