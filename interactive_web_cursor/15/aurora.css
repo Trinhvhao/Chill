@@ -1,0 +1,83 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+.g-wrap {
+  position: relative;
+  margin: auto;
+  width: 350px;
+  height: 500px;
+  background: #0b1a3a;
+  overflow: hidden;
+}
+.g-wrap::before {
+  content: "";
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  border-radius: 50%;
+  box-shadow: 0 0 0 0 #fff, 214px 48px 0 0.6px rgba(255, 255, 255, 0.8), 59px 427px 0 0.4px rgba(255, 255, 255, 0.8), 119px 177px 0 0.6px rgba(255, 255, 255, 0.8), 89px 348px 0 0.5px rgba(255, 255, 255, 0.8), 254px 14px 0 0.1px rgba(255, 255, 255, 0.8), 51px 183px 0 0.2px rgba(255, 255, 255, 0.8), 39px 223px 0 0.1px rgba(255, 255, 255, 0.8), 211px 187px 0 0.6px rgba(255, 255, 255, 0.8), 289px 240px 0 0.1px rgba(255, 255, 255, 0.8), 193px 137px 0 0.1px rgba(255, 255, 255, 0.8), 222px 160px 0 0.1px rgba(255, 255, 255, 0.8), 10px 375px 0 0.2px rgba(255, 255, 255, 0.8), 116px 378px 0 0.2px rgba(255, 255, 255, 0.8), 294px 299px 0 0.6px rgba(255, 255, 255, 0.8), 117px 409px 0 0.5px rgba(255, 255, 255, 0.8), 244px 253px 0 0.6px rgba(255, 255, 255, 0.8), 343px 120px 0 0.3px rgba(255, 255, 255, 0.8), 170px 162px 0 0.3px rgba(255, 255, 255, 0.8), 160px 403px 0 0.2px rgba(255, 255, 255, 0.8), 274px 204px 0 0.2px rgba(255, 255, 255, 0.8), 81px 3px 0 0.3px rgba(255, 255, 255, 0.8), 15px 43px 0 0.1px rgba(255, 255, 255, 0.8), 191px 335px 0 0.1px rgba(255, 255, 255, 0.8), 247px 47px 0 0.3px rgba(255, 255, 255, 0.8), 154px 130px 0 0.3px rgba(255, 255, 255, 0.8), 193px 124px 0 0.4px rgba(255, 255, 255, 0.8), 17px 431px 0 0.4px rgba(255, 255, 255, 0.8), 310px 228px 0 0.2px rgba(255, 255, 255, 0.8), 155px 231px 0 0.3px rgba(255, 255, 255, 0.8), 284px 78px 0 0.3px rgba(255, 255, 255, 0.8), 261px 324px 0 0.6px rgba(255, 255, 255, 0.8), 183px 410px 0 0.4px rgba(255, 255, 255, 0.8), 310px 424px 0 0.1px rgba(255, 255, 255, 0.8), 21px 67px 0 0.5px rgba(255, 255, 255, 0.8), 270px 274px 0 0.2px rgba(255, 255, 255, 0.8), 165px 98px 0 0.1px rgba(255, 255, 255, 0.8), 309px 330px 0 0.5px rgba(255, 255, 255, 0.8), 261px 108px 0 0.1px rgba(255, 255, 255, 0.8), 290px 189px 0 0.3px rgba(255, 255, 255, 0.8), 242px 331px 0 0.5px rgba(255, 255, 255, 0.8), 133px 121px 0 0.6px rgba(255, 255, 255, 0.8), 78px 28px 0 0.3px rgba(255, 255, 255, 0.8), 188px 332px 0 0.5px rgba(255, 255, 255, 0.8), 346px 438px 0 0.3px rgba(255, 255, 255, 0.8), 256px 342px 0 0.3px rgba(255, 255, 255, 0.8), 9px 490px 0 0.1px rgba(255, 255, 255, 0.8), 4px 464px 0 0.5px rgba(255, 255, 255, 0.8), 48px 156px 0 0.3px rgba(255, 255, 255, 0.8), 145px 198px 0 0.5px rgba(255, 255, 255, 0.8), 17px 288px 0 0.3px rgba(255, 255, 255, 0.8), 312px 475px 0 0.1px rgba(255, 255, 255, 0.8), 242px 28px 0 0.5px rgba(255, 255, 255, 0.8), 164px 176px 0 0.3px rgba(255, 255, 255, 0.8), 99px 397px 0 0.3px rgba(255, 255, 255, 0.8), 151px 14px 0 0.2px rgba(255, 255, 255, 0.8), 65px 357px 0 0.4px rgba(255, 255, 255, 0.8), 47px 57px 0 0.4px rgba(255, 255, 255, 0.8), 307px 421px 0 0.5px rgba(255, 255, 255, 0.8), 179px 221px 0 0.5px rgba(255, 255, 255, 0.8), 285px 305px 0 0.4px rgba(255, 255, 255, 0.8), 22px 30px 0 0.5px rgba(255, 255, 255, 0.8), 103px 48px 0 0.2px rgba(255, 255, 255, 0.8), 277px 361px 0 0.3px rgba(255, 255, 255, 0.8), 91px 448px 0 0.1px rgba(255, 255, 255, 0.8), 93px 437px 0 0.2px rgba(255, 255, 255, 0.8), 223px 128px 0 0.6px rgba(255, 255, 255, 0.8), 326px 42px 0 0.1px rgba(255, 255, 255, 0.8), 263px 89px 0 0.3px rgba(255, 255, 255, 0.8), 38px 153px 0 0.3px rgba(255, 255, 255, 0.8), 288px 50px 0 0.5px rgba(255, 255, 255, 0.8), 191px 114px 0 0.3px rgba(255, 255, 255, 0.8), 282px 127px 0 0.3px rgba(255, 255, 255, 0.8), 22px 120px 0 0.1px rgba(255, 255, 255, 0.8), 235px 381px 0 0.2px rgba(255, 255, 255, 0.8), 180px 498px 0 0.2px rgba(255, 255, 255, 0.8), 237px 78px 0 0.2px rgba(255, 255, 255, 0.8), 130px 9px 0 0.3px rgba(255, 255, 255, 0.8), 183px 316px 0 0.6px rgba(255, 255, 255, 0.8), 98px 130px 0 0.2px rgba(255, 255, 255, 0.8), 295px 389px 0 0.1px rgba(255, 255, 255, 0.8), 284px 437px 0 0.2px rgba(255, 255, 255, 0.8), 165px 167px 0 0.2px rgba(255, 255, 255, 0.8), 214px 469px 0 0.5px rgba(255, 255, 255, 0.8), 339px 99px 0 0.4px rgba(255, 255, 255, 0.8), 290px 170px 0 0.2px rgba(255, 255, 255, 0.8), 239px 416px 0 0.1px rgba(255, 255, 255, 0.8), 107px 40px 0 0.4px rgba(255, 255, 255, 0.8), 252px 20px 0 0.6px rgba(255, 255, 255, 0.8), 245px 300px 0 0.4px rgba(255, 255, 255, 0.8), 21px 254px 0 0.2px rgba(255, 255, 255, 0.8), 41px 54px 0 0.6px rgba(255, 255, 255, 0.8), 74px 341px 0 0.1px rgba(255, 255, 255, 0.8), 160px 297px 0 0.4px rgba(255, 255, 255, 0.8), 273px 114px 0 0.4px rgba(255, 255, 255, 0.8), 188px 6px 0 0.6px rgba(255, 255, 255, 0.8), 220px 184px 0 0.5px rgba(255, 255, 255, 0.8), 167px 129px 0 0.6px rgba(255, 255, 255, 0.8), 259px 237px 0 0.2px rgba(255, 255, 255, 0.8), 168px 481px 0 0.1px rgba(255, 255, 255, 0.8), 116px 242px 0 0.4px rgba(255, 255, 255, 0.8), 70px 201px 0 0.4px rgba(255, 255, 255, 0.8);
+}
+
+.g-aurora {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 200px;
+}
+.g-aurora::before {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 400px;
+  height: 300px;
+  background: #fff;
+  background: radial-gradient(circle at 100% 100%, transparent 45%, #bd63c1 55%, #53e5a6 65%, transparent 85%);
+  box-shadow: inset 0px 0 30px 0 #0b1a3a;
+  filter: url(#wave);
+  mix-blend-mode: color-dodge;
+  transform: rotate(45deg) scaleX(1.4);
+}
+
+@-webkit-keyframes bmove {
+  from {
+    transform: translateZ(10px) translateY(0);
+  }
+  to {
+    transform: translateZ(10px) translateY(-80px);
+  }
+}
+
+@keyframes bmove {
+  from {
+    transform: translateZ(10px) translateY(0);
+  }
+  to {
+    transform: translateZ(10px) translateY(-80px);
+  }
+}
+@-webkit-keyframes cmove {
+  from {
+    transform: translateZ(-5px) translateY(0);
+  }
+  to {
+    transform: translateZ(-5px) translateY(80px);
+  }
+}
+@keyframes cmove {
+  from {
+    transform: translateZ(-5px) translateY(0);
+  }
+  to {
+    transform: translateZ(-5px) translateY(80px);
+  }
+}
+svg {
+  width: 0;
+  height: 0;
+}
